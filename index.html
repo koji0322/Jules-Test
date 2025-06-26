@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英会話カード学習</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>英会話カード学習</h1>
+        <div id="card-area">
+            <div id="english-phrase" class="card-text"></div>
+            <div id="japanese-translation" class="card-text" style="display: none;"></div>
+        </div>
+        <input type="text" id="answer-input" placeholder="英語で入力してください">
+        <button id="submit-button">回答する</button>
+        <button id="show-answer-button">答えを見る</button>
+        <button id="next-button" style="display: none;">次のカードへ</button>
+        <div id="result-area"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
